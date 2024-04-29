@@ -1,0 +1,34 @@
+body {
+	background-color: grey;
+}
+
+main {
+	background-color: whitesmoke;
+	margin: 0 10%;
+	padding: 5%;
+}
+
+main > hr {
+	color: grey;
+	margin: 5%;
+}
+
+.product {
+	display: flex;
+	flex-flow: nowrap row;
+	justify-content: center;
+	gap: 5%;
+	text-align: center;
+}
+
+.product img {
+	flex-basis: 50%;
+	height: 50wh;
+}
+
+.product div {
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
