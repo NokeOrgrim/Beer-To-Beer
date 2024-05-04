@@ -1,0 +1,19 @@
+body {
+	background-color: grey;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*Affichage des logos des réseaux sociaux*/
+/*A mettre dans le footer*/
+.reseaux img {
+    height: 40px;
+}
+
+br {
+    padding: 10px;
+}
