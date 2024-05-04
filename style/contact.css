@@ -5,15 +5,32 @@ body {
 #contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /*Affichage des logos des réseaux sociaux*/
-/*A mettre dans le footer*/
+/*A mettre dans le main*/
 .reseaux img {
     height: 40px;
 }
 
-br {
-    padding: 10px;
+#formulaire {
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+#formulaire form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulaire select, #formulaire input, #formulaire textarea {
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#formulaire textarea {
+    font-size: small;
+    height: 150px;
 }

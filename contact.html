@@ -11,27 +11,49 @@
 
     <main id="contact">
 
-      <div>
-        <h2>Adresse</h2>
-        <p>Beer to beer</p>
-        <a href="https://maps.app.goo.gl/hc1aUi7oVKcVKsJQ9">
-          <p>96 Rue des Trois Fontanot</p>
-          <p>92744 Abbey in Val-Dieu, Belgium</p>
-        </a>
-      </div>
+      <aside id="contact-side">
 
-      <div>
-        <h2>Contactez-nous</h2>
-        <p>beertobeer@gmail.com</p>
-        <p>+32 2 374 67 92</p>
-      </div>
+        <div>
+          <h2>Adress</h2>
+          <p>Beer to beer</p>
+          <a href="https://maps.app.goo.gl/hc1aUi7oVKcVKsJQ9">
+            <p>96 Rue des Trois Fontanot</p>
+            <p>92744 Abbey in Val-Dieu, Belgium</p>
+          </a>
+        </div>
+  
+        <div class="reseaux">
+            <h2>Follow us</h2>
+            <a href="https://www.instagram.com/"><img src="images/insta-noir.png" alt="Instagram"></a>
+            <a href="https://twitter.com/?lang=en"><img src="images/x-noir.png" alt="X"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube"></a>
+        </div>
 
-      <div class="reseaux">
-          <h2>Suivez-nous</h2>
-          <a href="https://www.instagram.com/"><img src="images/insta-noir.png" alt="Instagram"></a>
-          <a href="https://twitter.com/?lang=en"><img src="images/x-noir.png" alt="X"></a>
-          <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube"></a>
+      </aside>
+
+      <div id="formulaire">
+        <h2>Contact us</h2>
+
+        <form>
+
+            <label for="motif">Subject</label>
+            <select id="motif" name="motif">
+                <option value="buy beers">Buying our beers</option>
+                <option value="sell beers">Selling our beers</option>
+                <option value="other question">Any other question</option>
+            </select>
+            
+            <input id="name" type="text" name="name" placeholder="Your name" required>
+            <input id="last-name" type="text" name="last-name" placeholder="Your last name" required>
+            <input id="mail" type="email" name="mail" placeholder="Your mail" required>
+            <textarea id="message" name="message" placeholder="Tell us everything!"></textarea>
+
+            <input id="bouton-principal" type="submit" value="Envoyer">
+
+        </form>
+
       </div>
+      
 
     </main>
     
