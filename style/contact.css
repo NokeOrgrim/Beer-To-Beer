@@ -1,5 +1,6 @@
 body {
-	background-color: grey;
+    background-image: url(../images/beer-background.jpeg);
+    background-size: cover;
 }
 
 #contact {
@@ -12,6 +13,13 @@ body {
 /*A mettre dans le main*/
 .reseaux img {
     height: 40px;
+    margin-right: 15px;
+}
+
+#contact-side {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 #formulaire {
@@ -33,4 +41,9 @@ body {
 #formulaire textarea {
     font-size: small;
     height: 150px;
+}
+
+#form-button {
+    width: fit-content;
+    align-self: center;
 }
