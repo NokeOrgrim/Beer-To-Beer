@@ -1,3 +1,10 @@
 * {
 	font-family: "Helvetica", "Verdana", sans-serif;
 }
+
+/*Mise en page des pages : doit être présent sur toutes les pages pour la mise en forme*/
+main {
+	background-color: whitesmoke;
+	margin: 0 10%;
+	padding: 5%;
+}
