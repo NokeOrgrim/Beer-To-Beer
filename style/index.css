@@ -7,6 +7,31 @@ body{
     
 }
 
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home > p {
+    background-color: black;
+    position:absolute;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: end;
+    font-size: 2em;
+
+}
+
+.home > img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
 .welcome {
     position: relative;
     display: flex;
