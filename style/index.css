@@ -1,0 +1,87 @@
+body{
+    background-image: url(../images/beer-background.jpeg);
+    background-size: auto;
+    margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home > p {
+    background-color: black;
+    position:absolute;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: end;
+    font-size: 2em;
+
+}
+
+.home > img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.welcome {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.welcome-txt{
+    flex-direction: column;
+}
+
+.welcome > img {
+    justify-content: center;
+    margin: 10px;
+    width: 40%;
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+
+.welcome-txt > h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.welcome-txt > p{
+    margin-left: 50px;
+    font-size: 2em;
+}
+
+@media  screen and (max-width: 1554px) {
+
+    .welcome-txt > h1 {
+        font-size: 2em;
+    }
+    
+    .welcome-txt > p{
+        margin-left: 30px;
+        font-size: 1.5em;
+    }
+}
+
+@media  screen and (max-width: 1166px) {
+
+    .welcome-txt > h1 {
+        font-size: 2em;
+    }
+    
+    .welcome-txt > p{
+        margin-left: 10px;
+        font-size: 1em;
+    }
+}
