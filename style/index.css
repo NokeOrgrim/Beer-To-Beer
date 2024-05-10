@@ -1,6 +1,6 @@
 body{
     background-image: url(../images/beer-background.jpeg);
-    background-size: auto;
+    background-size: cover;
     margin: 0;
     
 }
@@ -10,6 +10,13 @@ main{
     margin-right: 10%;
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+a{
+    position:static;
+    text-decoration: none;
+    color: black;
+    margin: 0;
 }
 
 .home{
@@ -25,51 +32,76 @@ main{
     justify-content: center;
     align-items: end;
     font-size: 4em;
-    margin: 0;
+    margin: 10px;
 
 }
 
 .home > img{
     position: relative;
     width: 100%;
-    height: auto;
 }
 
 
-.welcome {
+.bloc {
     display: flex;
     flex-direction: row;
 }
 
-.welcome-txt{
+.bloc-txt{
     flex-direction: column;
 }
 
-.welcome > img {
-    justify-content: center;
+.img {
     margin: 10px;
     width: 40%;
     filter: brightness(75%);
     border-radius: 20px;
 }
 
-.welcome-txt > h1 {
+.bloc-txt > h1 {
     font-size: 2.5em;
     font-weight: bold;
 }
 
-.welcome-txt > p{
+.bloc-txt > p{
     margin-left: 50px;
     font-size: 1.5em;
 }
 
+.separation > h1{
+    margin-left: 1em;
+}
+
+.beers{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.bloc-txt{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.beer-section > div{
+    width: 50%;
+}
+
+
 @media  screen and (max-width: 1554px) {
 
-    .welcome-txt > h1 {
+    .bloc-txt > h1 {
         font-size: 2em;
     }
     
-    .welcome-txt > p{
+    .bloc-txt > p{
         margin-left: 30px;
         font-size: 1em;
     }
@@ -78,11 +110,11 @@ main{
 
 @media  screen and (max-width: 1166px) {
 
-    .welcome-txt > h1 {
+    .bloc-txt > h1 {
         font-size: 2em;
     }
     
-    .welcome-txt > p{
+    .bloc-txt > p{
         margin-left: 10px;
         font-size: 1em;
     }
@@ -91,7 +123,7 @@ main{
         font-size: 2em;
     }
 
-    .welcome > img{
+    .bloc > img{
         display: none;
     }
 
