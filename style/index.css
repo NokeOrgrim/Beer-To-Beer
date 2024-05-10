@@ -2,9 +2,14 @@ body{
     background-image: url(../images/beer-background.jpeg);
     background-size: auto;
     margin: 0;
-    margin-left: 2%;
-    margin-right: 2%;
     
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .home{
@@ -12,16 +17,15 @@ body{
     flex-direction: column;
 }
 
-.home > p {
-    background-color: black;    
-    position:absolute;
+.home > p {  
+    position:relative;
     display: flex;
     width: 100%;
     z-index: 1;
-    color: whitesmoke;
     justify-content: center;
     align-items: end;
-    font-size: 2em;
+    font-size: 4em;
+    margin: 0;
 
 }
 
@@ -33,11 +37,8 @@ body{
 
 
 .welcome {
-    position: relative;
     display: flex;
     flex-direction: row;
-    background-color: whitesmoke;
-    border-radius: 20px;
 }
 
 .welcome-txt{
@@ -53,13 +54,13 @@ body{
 }
 
 .welcome-txt > h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 .welcome-txt > p{
     margin-left: 50px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 @media  screen and (max-width: 1554px) {
@@ -70,8 +71,9 @@ body{
     
     .welcome-txt > p{
         margin-left: 30px;
-        font-size: 1.5em;
+        font-size: 1em;
     }
+
 }
 
 @media  screen and (max-width: 1166px) {
@@ -84,4 +86,13 @@ body{
         margin-left: 10px;
         font-size: 1em;
     }
+
+    .home > p {
+        font-size: 2em;
+    }
+
+    .welcome > img{
+        display: none;
+    }
+
 }
