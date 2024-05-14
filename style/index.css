@@ -19,6 +19,53 @@ a{
     margin: 0;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 5em;
+
+}
+
+body > img{
+    position:absolute;
+    width: 10%
+}
+
+nav > ul{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    width: 35em;
+    height: 4em;
+    border-radius: 2em;
+    border: solid whitesmoke 6px;
+}
+
+nav > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 5em;
+    height: 3em;
+    border-radius: 2em;
+}
+
+nav > ul > li:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 5.5em;
+    height: 3.5em;
+    border-radius: 2em;
+}
+
 .home{
     display: flex;
     flex-direction: column;
@@ -106,6 +153,31 @@ section{
         font-size: 1em;
     }
 
+}
+
+@media  screen and (max-width: 3900px) {
+
+    nav > ul > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 3.5em;
+        height: 2.5em;
+        border-radius: 2em;
+    }
+    
+    nav > ul > li:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 4em;
+        height: 3em;
+        border-radius: 2em;
+    }
+
+    
 }
 
 @media  screen and (max-width: 1166px) {
