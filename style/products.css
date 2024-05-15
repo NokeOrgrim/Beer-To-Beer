@@ -17,9 +17,10 @@ main > hr {
 	text-align: center;
 }
 
+
 .product img {
-	flex-basis: 50%;
-	height: 50wh;
+	width:60%;
+	height:60%;
 }
 
 .product div {
