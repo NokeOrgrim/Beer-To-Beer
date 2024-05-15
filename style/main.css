@@ -2,6 +2,13 @@
 	font-family: "Helvetica", "Verdana", sans-serif;
 }
 
+body{
+    background-image: url(../images/bois-claire.jpeg);
+    background-size: cover;
+    margin: 0;
+    
+}
+
 /*Mise en page des pages : doit être présent sur toutes les pages pour la mise en forme*/
 main {
 	background-color: whitesmoke;
