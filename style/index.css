@@ -29,6 +29,7 @@
 
 .bloc-txt{
     flex-direction: column;
+    margin-left: 35px;
 }
 
 .img {
@@ -39,7 +40,7 @@
     border-radius: 20px;
 }
 
-.bloc-txt > h1 {
+.bloc-txt > h2 {
     font-size: 2.5em;
     font-weight: bold;
     margin-left: 35px;
