@@ -15,7 +15,7 @@ main {
 	background-color: whitesmoke;
 	margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5em;
+    margin-top: 2em;
     margin-bottom: 5em;
 	padding: 5%;
 }
@@ -35,7 +35,7 @@ nav{
 
 }
 
-body > img{
+body > a > img {
     position:absolute;
     width: 10%
 }

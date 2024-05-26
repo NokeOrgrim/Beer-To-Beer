@@ -3,7 +3,8 @@
     flex-direction: column;
 }
 
-.home > p {  
+/*! J'ai enlevé le paragraphe qu'on trouvait dans .home parce que j'ai mis le slogan sur l'image !*/
+/*.home > p {  
     position:relative;
     display: flex;
     width: 100%;
@@ -12,8 +13,7 @@
     align-items: end;
     font-size: 4em;
     margin: 10px;
-
-}
+}*/
 
 .home > img{
     position: relative;
@@ -24,6 +24,7 @@
 .bloc {
     display: flex;
     flex-direction: row;
+    margin-top: 2em;
 }
 
 .bloc-txt{
@@ -32,6 +33,7 @@
 
 .img {
     margin: 10px;
+    margin-right: 20px;
     width: 40%;
     filter: brightness(75%);
     border-radius: 20px;
@@ -40,10 +42,10 @@
 .bloc-txt > h1 {
     font-size: 2.5em;
     font-weight: bold;
+    margin-left: 35px;
 }
 
-.bloc-txt > p{
-    margin-left: 50px;
+.bloc-txt > p {
     font-size: 1.5em;
 }
 
@@ -55,9 +57,9 @@
     display: flex;
     height: 100%;
     margin: 0;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .bloc-txt{
