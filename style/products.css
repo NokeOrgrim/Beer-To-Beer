@@ -32,6 +32,23 @@ main > hr {
 	width: 30%;
 }
 
+.product p {
+	line-height: 28px;
+}
+
 .reverse {
 	flex-direction: row-reverse;
+}
+
+.button-order {
+	padding: 20px;
+    background-color: #ffa921;
+    border-radius: 15px;
+    border: none;
+}
+
+.button-order a {
+	font-size: large;
+	height: 100%;
+	padding: 20px;
 }
