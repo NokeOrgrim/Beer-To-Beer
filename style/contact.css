@@ -1,0 +1,44 @@
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Affichage des logos des réseaux sociaux*/
+/*A mettre dans le main*/
+.reseaux img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+#contact-side {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#formulaire {
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+#formulaire form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulaire select, #formulaire input, #formulaire textarea {
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#formulaire textarea {
+    font-size: small;
+    height: 150px;
+}
+
+#form-button {
+    width: fit-content;
+    align-self: center;
+}

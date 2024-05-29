@@ -1,0 +1,161 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+/*! J'ai enlevé le paragraphe qu'on trouvait dans .home parce que j'ai mis le slogan sur l'image !*/
+/*.home > p {  
+    position:relative;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+    align-items: end;
+    font-size: 4em;
+    margin: 10px;
+}*/
+
+.home > img{
+    position: relative;
+    width: 100%;
+}
+
+
+.bloc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.bloc-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 35px;
+}
+
+.img {
+    margin: 10px;
+    margin-right: 20px;
+    width: 40%;
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+
+.img-beers {
+    margin: 10px;
+    margin-right: 20px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.bloc-txt > h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.bloc-txt > p {
+    font-size: auto;
+}
+
+.bloc-txt > section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 20px;
+}
+
+.button-more {
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffa921;
+    border-radius: 15px;
+    border: none;
+}
+
+.separation > h1{
+    margin-left: 1em;
+}
+
+.beers{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.bloc-txt{
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.beer-section {
+    margin-bottom: 80px;
+}
+
+.beer-section > div{
+    width: 50%;
+}
+
+
+@media  screen and (max-width: 1554px) {
+
+    .bloc-txt > h1 {
+        font-size: 2em;
+    }
+    
+    .bloc-txt > p{
+        margin-left: 30px;
+        font-size: 1em;
+    }
+
+}
+
+@media  screen and (max-width: 1166px) {
+
+    nav > ul > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 3.5em;
+        height: 2.5em;
+        border-radius: 2em;
+    }
+    
+    nav > ul > li:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 4em;
+        height: 3em;
+        border-radius: 2em;
+    }
+
+    .bloc-txt > h1 {
+        font-size: 2em;
+    }
+    
+    .bloc-txt > p{
+        margin-left: 10px;
+        font-size: 1em;
+    }
+
+    .home > p {
+        font-size: 2em;
+    }
+
+    .bloc > img{
+        display: none;
+    }
+
+}

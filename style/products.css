@@ -1,0 +1,54 @@
+main {
+	background-color: whitesmoke;
+	margin: 0 10%;
+	padding: 5%;
+}
+
+main > hr {
+	color: grey;
+	margin: 5%;
+}
+
+.product {
+	display: flex;
+	flex-basis: 200px;
+	flex-flow: nowrap row;
+	justify-content: center;
+	gap: 5%;
+	margin: 0 auto;
+	text-align: center;
+	text-justify: none;
+}
+
+
+.product img {
+	width: 50%;
+	max-height: 10;
+}
+
+.product div {
+	font-size: 14pt;
+	text-align: center;
+	width: 30%;
+}
+
+.product p {
+	line-height: 28px;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.button-order {
+	padding: 20px;
+    background-color: #ffa921;
+    border-radius: 15px;
+    border: none;
+}
+
+.button-order a {
+	font-size: large;
+	height: 100%;
+	padding: 20px;
+}

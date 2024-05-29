@@ -3,25 +3,68 @@
   <head>
     <meta charset="utf-8">
     <title>Beer to beer | Contact</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" href="style/contact.css">
   </head>
 
   <body>
-        
-    <div>
-        <h2>Adresse du siège</h2>
-        <p>SCC France<br><a href="https://maps.app.goo.gl/hc1aUi7oVKcVKsJQ9">96 Rue des Trois Fontanot<br>92744 Nanterre Cedex</a>
-        </p>
-    </div>
 
-    <div class="reseaux">
-        <h2>Suivez-nous</h2>
-        <a href="https://www.linkedin.com"><img src="image/linkedin-noir.png" alt="Logo de linkedin"></a>
-        <a href="https://twitter.com/scc_info"><img src="image/x-noir.png" alt="Logo de x"></a>
-        <a href="https://www.facebook.com/SCCINFO/"><img src="image/facebook-noir.png" alt="Logo de facebook"></a>
-        <a href="https://www.youtube.com/@SCCFrance-SCCTV"><img src="image/youtube.png" alt="Logo de youtube"></a>
-    </div>
+		<a href="index.html"><img src="images/logo-removebg-preview.png"></a>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+				<li><a href="history.html">History</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 
+    <main id="contact">
+
+      <aside id="contact-side">
+
+        <div>
+          <h2>Address</h2>
+          <p>Beer to beer</p>
+          <a href="https://maps.app.goo.gl/hc1aUi7oVKcVKsJQ9">
+            <p>96 Rue des Trois Fontanot</p>
+            <p>92744 Abbey in Val-Dieu, Belgium</p>
+          </a>
+        </div>
+  
+        <div class="reseaux">
+            <h2>Follow us</h2>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/insta-noir.png" alt="Instagram"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/x-noir.png" alt="X"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+        </div>
+
+      </aside>
+
+      <div id="formulaire">
+        <h2>Contact us</h2>
+
+        <form>
+
+            <select id="motif" name="motif">
+                <option value="buy beers">Buying our beers</option>
+                <option value="sell beers">Selling our beers</option>
+                <option value="other question">Any other question</option>
+            </select>
+            
+            <input id="name" type="text" name="name" placeholder="Your name" required>
+            <input id="last-name" type="text" name="last-name" placeholder="Your last name" required>
+            <input id="mail" type="email" name="mail" placeholder="Your mail" required>
+            <textarea id="message" name="message" placeholder="Tell us everything!"></textarea>
+
+            <input id="form-button" type="submit" value="Send">
+
+        </form>
+
+      </div>
+      
+
+    </main>
     
   </body>
 </html>

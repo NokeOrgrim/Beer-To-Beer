@@ -1,3 +1,76 @@
 * {
 	font-family: "Helvetica", "Verdana", sans-serif;
+	text-align: justify;
+}
+
+body{
+    background-image: url(../images/bois-claire.jpeg);
+    background-size: cover;
+    margin: 0;
+    
+}
+
+/*Mise en page des pages : doit être présent sur toutes les pages pour la mise en forme*/
+main {
+	background-color: whitesmoke;
+	margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+	padding: 5%;
+}
+
+a{
+    position:static;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.5em;
+
+}
+
+body > a > img {
+    position:absolute;
+    width: 10%
+}
+
+nav > ul{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    width: 40em;
+    height: 4em;
+    border-radius: 2em;
+    border: solid whitesmoke 4px;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 5em;
+    height: 3em;
+    border-radius: 2em;
+}
+
+nav > ul > li:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 5.5em;
+    height: 3.5em;
+    border-radius: 2em;
 }
