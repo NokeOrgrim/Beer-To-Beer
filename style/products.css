@@ -41,14 +41,32 @@ main > hr {
 }
 
 .button-order {
-	padding: 20px;
+	font-size: large;
     background-color: #ffa921;
     border-radius: 15px;
     border: none;
-}
-
-.button-order a {
-	font-size: large;
 	height: 100%;
 	padding: 20px;
+}
+
+.button-order:hover {
+	cursor: pointer;
+}
+
+.order-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	min-width: 100%;
+}
+
+.order-box a {
+	border-radius: 15px;
+}
+
+.price-tag {
+	color: #606060;
+	font-family: monospace;
 }
