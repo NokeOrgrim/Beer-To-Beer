@@ -59,18 +59,21 @@ nav > ul > li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
+    border: solid rgb(245, 245, 245) 4px;
     width: 5em;
-    height: 3em;
+    height: 2.5em;
     border-radius: 2em;
 }
+
 
 nav > ul > li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
-    width: 5.5em;
-    height: 3.5em;
+    background-color: rgb(245, 245, 245);
+    width: 5em;
+    height: 2.5em;
+    border: inset orange 4px;
     border-radius: 2em;
 }
